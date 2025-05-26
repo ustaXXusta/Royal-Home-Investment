@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.abs {
+  background-color: transparent;
+  backdrop-filter: blur(10px);
+  display: none;
+  flex-direction: column;
+  width: 90vw;
+  position: fixed;
+  top: 5vh;
+  color: black;
+  margin-top: 5vh;
+  left: 5vw;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px black;
+  border: solid 0.5px black;
+}
+
+.top {
+  height: 5vh;
+  padding: 5px 5px;
+  display: flex;
+  justify-content: end;
+}
+.xIcon {
+  width: 2vw;
+  cursor: pointer;
+}
+.bot {
+  height: 80vh;
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.rightKeeper {
+  height: 50%;
+  width: 100%;
+  padding-left: 8vw;
+  padding-top: 4vh;
+}
+.map {
+  height: 37.5vh;
+  width: 21.1vw;
+  border-radius: 50%;
+  border: solid 0.5px gray;
+  box-shadow: 0px 0px 5px black;
+}
+.bottomImage {
+  display: flex;
+  height: 50vh;
+  padding-top: 30px;
+  padding-left: 3vw;
+}
+.imageKeeeper {
+  height: 23vh;
+  border-radius: 5px;
+
+  width: auto;
+  margin: 0px 20px;
+}
+.imageLoader {
+  height: 100%;
+  box-shadow: 0px 0px 10px black;
+}
+.text {
+  padding-left: 3vw;
+  letter-spacing: 1px;
+  padding-top: 3vh;
+  max-width: max-content;
+  text-shadow: 0px 0px 0.5px rgb(30, 30, 30);
+}
+.head {
+  padding-left: 2vw;
+  letter-spacing: 1px;
+  text-shadow: 0px 0px 0.5px rgb(33, 33, 33);
+}
